@@ -1,4 +1,9 @@
-<nav className="navbar navbar-expand-lg sticky-top navbar-light bg-light">
+import React from 'react'
+
+const Navbar = () => {
+  return (
+    <div>
+      <nav className="navbar navbar-expand-lg sticky-top navbar-light bg-light">
       <a className="navbar-brand font-italic font-weight-light" href="">
         Pax Portfolio
       </a>
@@ -32,4 +37,12 @@
           </a>
         </div>
       </div>
-    </nav>
+    </nav>      
+    </div>
+  )
+}
+
+export default Navbar
+
+
+
