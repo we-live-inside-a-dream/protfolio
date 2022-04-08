@@ -27,16 +27,3 @@ function App() {
 export default App;
 
 
-export default function App() {
-  return (
-    <main className="text-gray-400 body-font">
-      <Navbar />
-      <About />
-      <Projects />
-      <Skills />
-      <Testimonials />
-      <More />
-      <Footer />
-    </main>
-  );
-}
