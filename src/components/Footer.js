@@ -1,4 +1,10 @@
-<footer className="footer-webpage" id="contact">
+import React from 'react'
+import Contact from './Contact'
+
+const Footer = () => {
+  return (
+    <div>
+      <footer className="footer-webpage" id="contact">
         <div className="container-fluid">
           <div className="row">
             <div className="col-5 col-sm-6 col-md-4 col-lg-2 contact-me-footer">
@@ -21,3 +27,10 @@
           </div>
         </div>
       </footer>
+    </div>
+  )
+}
+
+export default Footer
+
+
